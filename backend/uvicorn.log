@@ -1,0 +1,50 @@
+INFO:     Will watch for changes in these directories: ['/Users/gamma/Desktop/Survey/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [12034] using StatReload
+/Users/gamma/Desktop/Survey/backend/.venv/lib/python3.14/site-packages/pydantic/_internal/_config.py:383: UserWarning: Valid config keys have changed in V2:
+* 'orm_mode' has been renamed to 'from_attributes'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [12076]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     192.168.1.72:50407 - "GET /health HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50415 - "POST /token HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50418 - "POST /token HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50445 - "GET /api/responses HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50764 - "GET /api/responses HTTP/1.1" 401 Unauthorized
+INFO:     192.168.1.72:50772 - "GET /api/responses HTTP/1.1" 401 Unauthorized
+INFO:     192.168.1.72:50782 - "GET /api/responses HTTP/1.1" 401 Unauthorized
+INFO:     192.168.1.72:50790 - "GET /api/responses HTTP/1.1" 401 Unauthorized
+WARNING:  StatReload detected changes in 'check_db.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [12076]
+/Users/gamma/Desktop/Survey/backend/.venv/lib/python3.14/site-packages/pydantic/_internal/_config.py:383: UserWarning: Valid config keys have changed in V2:
+* 'orm_mode' has been renamed to 'from_attributes'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [14787]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     192.168.1.72:50818 - "GET /health HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50825 - "GET /api/responses HTTP/1.1" 401 Unauthorized
+INFO:     192.168.1.72:50859 - "GET /api/responses HTTP/1.1" 401 Unauthorized
+WARNING:  StatReload detected changes in 'auth.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [14787]
+/Users/gamma/Desktop/Survey/backend/.venv/lib/python3.14/site-packages/pydantic/_internal/_config.py:383: UserWarning: Valid config keys have changed in V2:
+* 'orm_mode' has been renamed to 'from_attributes'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [15489]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     192.168.1.72:50894 - "POST /token HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50894 - "GET /api/responses HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50932 - "GET /api/responses HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50942 - "GET /api/responses HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50952 - "GET /api/responses HTTP/1.1" 200 OK
+INFO:     192.168.1.72:50958 - "GET /api/responses HTTP/1.1" 200 OK
+INFO:     192.168.1.72:51014 - "GET /api/responses HTTP/1.1" 200 OK
+INFO:     192.168.1.72:51016 - "GET /api/responses HTTP/1.1" 200 OK
